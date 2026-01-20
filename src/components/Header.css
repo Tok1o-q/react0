@@ -1,0 +1,25 @@
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(90deg, #0077b6, #00b4d8);
+  padding: 15px 30px;
+}
+
+.header .logo {
+  color: white;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.header nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+.header nav a:hover {
+  color: #caf0f8;
+}
